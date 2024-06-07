@@ -15,10 +15,12 @@ export const IntroWrap = styled.div`
 `;
 
 export const IntroHeader = styled.h1`
-  margin-bottom: 0;
-  color: #fff;
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: 0.6px;
   @media (max-width: ${vars.media.smMax}) {
-    font-size: 72px;
-    line-height: 91px;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0px;
   }
 `;
