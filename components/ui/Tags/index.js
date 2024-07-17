@@ -2,22 +2,6 @@ import React from "react";
 import { StyledTags } from "./style";
 import Image from "next/image";
 
-/**
- * Tag component
- * @param {string} label Label for the Tag
- * @param {string} icon Route for the icon insite the Tag
- * @param {boolean} active Styling prop for the Tag
- * @param {boolean} inactive Styling prop for the Tag
- * @param {string} name String inside the circle in Tag
- * @param {boolean} yellow Styling prop for the Tag
- * @param {boolean} blue Styling prop for the Tag
- * @param {boolean} purple Styling prop for the Tag
- * @param {boolean} closed Styling prop for the Tag
- * @param {boolean} red Styling prop for the Tag
- * @param {boolean} green Styling prop for the Tag
- * @alias module:UI.Tag
- */
-
 const Tag = ({
   label,
   icon,
